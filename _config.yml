@@ -1,0 +1,23 @@
+title: Sumit's Notes
+author:
+  name: Sumit Ghosh
+  email: hi@sumit-ghosh.com
+description: >-
+  Sumit's Notes
+baseurl: ""
+url: "https://skghosh.me"
+
+minima:
+  social_links:
+    twitter: summitkg
+    flickr: sumit.ghosh
+    goodreads: summitkg
+  skin: dark
+
+remote_theme: SkullTech/minima-improved
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+permalink: /notes/:title/
